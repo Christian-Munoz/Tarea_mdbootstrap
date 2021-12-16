@@ -27,6 +27,7 @@ body {
   padding: 10rem 0;
   background-repeat: no-repeat;
   background-size: 100%, 120rem;
+ 
 }
 .sobre-nosotros-grid {
   display: flex;
@@ -38,9 +39,10 @@ body {
   color: #fff;
 }
 
-.contenedor {
+.container {
   max-width: 1200px;
   margin: 0 auto;
+  text-align:justify;
 }
 
 img {
@@ -55,4 +57,11 @@ img {
 .servicio-fila {
   width: 100%;
   text-align: center;
+}
+
+.container-botones {
+  display: flex;
+  text-align: right;
+  justify-content: left;
+
 }
